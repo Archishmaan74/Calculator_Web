@@ -1,0 +1,84 @@
+.heading{
+    margin-top: 20px;
+    margin-left: 670px;
+    margin-right: 680px;
+    padding: 15px;
+    color: aquamarine;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-style: oblique;
+    background-color: rebeccapurple;
+    border-color: greenyellow;
+    border-style: dashed;
+}
+
+body{
+    background-image: url("/img/calci.png");
+    scroll-behavior: smooth;
+    background-attachment: fixed;
+}
+
+.container{
+    max-width: 550px;
+    background-color: rgba(249, 245, 241, 0.471);
+    margin: 0 auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+}
+
+
+#display{
+    background-color: aquamarine;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons{
+    margin-top: 58px;
+    background-color: rgba(32, 103, 185, 0.327);
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons > div {
+    border-top: 1px solid rgb(228, 136, 136);
+    border-right: 1px solid rgb(228, 136, 136);
+}
+.button{
+    border: 1px solid rgb(228, 136, 136);
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#equal{
+    background-color: #5555ff;
+    color: white;
+}
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.rows{
+    display: flex;
+    padding: 65px;
+}
+.coloumns{
+    height: 450px;
+    width: 790px;
+    padding: 60px;
+}
+
+.backgroundimg{
+    margin-top: 65px;
+    border-radius: 50%;
+}
+.para{
+    margin-top: 15%;
+    font-size: medium;
+}
